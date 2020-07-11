@@ -4,6 +4,7 @@ author: "jguzmant"
 date: "7/8/2020"
 output:
   ioslides_presentation: default
+  beamer_presentation: default
   slidy_presentation: default
 ---
 
@@ -14,6 +15,14 @@ knitr::opts_chunk$set(echo = FALSE)
 ## Unsuppervised ML over MTCARS dataset
 
 This shiny app is intended to show an application of a Machine Learning unsuppervised Algorithm K-means, it shows the groups(clusters) and colours the observations according to their nearest group(cluster).
+
+## Inputs
+
+-  X variable
+-  Y variable
+-  Number of clusters(between 2 and 6)
+
+In the next slide, an example x=**disp**, y=**mpg** and 3 clusters 
 
 ## Plot
 

@@ -1,3 +1,7 @@
+#Developing Data Products Course Project
+#Date: 7/10/2020
+#Author: jguzmant 
+#Shiny Server file
 function(input, output,session) {
     
     x <- reactive({
